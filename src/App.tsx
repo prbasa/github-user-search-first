@@ -1,7 +1,10 @@
+import './app.scss';
+import Navbar from './core/components/Navbar';
+
 const App = () => {
     return (
-        <h1>App</h1>
-        
+        <Navbar />
+     
     )
 }
 
