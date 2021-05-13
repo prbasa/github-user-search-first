@@ -4,7 +4,7 @@ type Props = {
     text: string;
 }
 
-const Button = ({text}: Props) => (
+const ButtonHome = ({text}: Props) => (
     <>
     <button className="btn">
         {text}
@@ -12,4 +12,4 @@ const Button = ({text}: Props) => (
     </>
 )
 
-export default Button;
+export default ButtonHome;

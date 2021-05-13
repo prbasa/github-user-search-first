@@ -1,8 +1,10 @@
-import Button from '../../core/components/Button';
 import './styles.scss';
 import { Link } from 'react-router-dom';
+import React from 'react';
+import ButtonHome from '../../core/components/ButtonHome';
 
 const Home = () => (
+    <>
     <div className="home-container">
         <div className="text-title">
             Desafio do Capítulo 3, <br /> Bootcamp DevSuperior
@@ -17,9 +19,10 @@ const Home = () => (
                 Mateusz Wierzbicki: <a href="mailto:antforfigma@gmail.com">antforfigma@gmail.com</a>
         </div>
         <Link to="/search">
-            <Button text="Começar" />
+            <ButtonHome text="Começar" />
         </Link>
     </div>
+    </>
 );
 
 
