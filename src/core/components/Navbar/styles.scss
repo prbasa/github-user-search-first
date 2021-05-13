@@ -8,14 +8,16 @@
 }
 
 .text-nav{
+    position: absolute;
+    height: 32px;
     width: 248px;
     margin-left: 41px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
     display: flex;
     align-items: center;
     color: #FFF;
-   
-}
-
-.nav-logo-text{
-    color:#FFF; 
 }
